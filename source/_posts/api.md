@@ -96,7 +96,7 @@ Default userId: `Dummy_User`
 
 Default username for admin: `Dummy_Admin` and the password: `Dummy`
 
-Default books are hosting from my server in this address: https://www.webriders.se/other/bookstoredata.txt
+Default books are hosting from my server in this address: https://www.softwarepower.ir/other/bookstoredata.txt
  
 The server will running on http://localhost:8080/, so the **_`POST`_** and **_`GET`_** requests for the shopping basket are as follows:
 

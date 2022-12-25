@@ -12,11 +12,11 @@ menu:
 
 
 # Title on top left of menu. Leave empty to use main blog title
-menu_title: Web Riders
+menu_title: Software Power
 
 # URL of the Home page image
-index_cover: https://media.giphy.com/media/lo5HLcAPFSgTZNTpAn/giphy.gif
-logo_cover: https://www.webriders.se/images/webriders_logo.png
+index_cover: images/home-bg.jpg
+logo_cover: images/aboutus.png
 
 # Default post title
 default_post_title: Untitled
@@ -49,4 +49,4 @@ gitlab_url:
 linkedin_url:
 mailto: webbplatsutvecklare@gmail.com
 
-share_cover: https://www.webriders.se/images/webriders_sharecover.png
+share_cover: images/home-bg.jpg
