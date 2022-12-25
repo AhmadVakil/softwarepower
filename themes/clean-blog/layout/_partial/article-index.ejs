@@ -1,0 +1,29 @@
+<a href="<%- config.root %><%- item.path %>" onmouseover="textChange(this)" onmouseout="textUndoChange(this)" style="transition: 0.8s;">
+<div class="post-preview">
+        <h2 class="post-title">
+            <%- item.title || theme.default_post_title || "Untitled" %>
+        </h2>
+        <% if (item.subtitle && item.subtitle.length) { %>
+            <h3 class="post-subtitle">
+                <%- item.subtitle %>
+            </h3>
+        <% } %>
+         Read more ...
+    <p class="post-meta" style="color:black;">
+        <!-- Date and Author -->
+        <% if(item.author) { %>
+            Posted by <%- item.author %> on
+        <% } %>
+        <%= item.date.format(config.date_format) %>
+    </p>
+</div>
+</a>
+<script>
+function textChange(x) {
+  x.style.color = "white";
+}
+
+function textUndoChange(x) {
+  x.style.color = "black";
+}
+</script>

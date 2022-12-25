@@ -1,0 +1,56 @@
+<%
+    var items = [];
+    var title = '';
+    var isTagIndex = page.type === 'tags' || page.type === 'tag';
+    var isCategoryIndex = page.type === 'categories' || page.type === 'category';
+    if (isTagIndex) {
+        items = site.tags;
+        title = __('tags');
+    } else if (isCategoryIndex) {
+        items = site.categories;
+        title = __('categories');
+    }
+%>
+
+<% if (isTagIndex || isCategoryIndex) { %>
+    <header class="intro-header" style="background-image: url('<%- theme.index_cover %>')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <!-- <h1><%- page.title %></h1> -->
+                        <img src="https://www.webriders.se/images/allcategories.png" alt="Web Riders" style="width:311px;height:67px;">
+                        <br>
+                        <img src="https://www.webriders.se/images/webriders_logo.png" alt="Web Riders" style="width:200px;height:200px;">
+                        <hr class="small">
+                        <!-- 40% of the image size -->
+                        <img src="https://www.webriders.se/images/sqlwhereyousmile.png" alt="Web Riders" style="width:282px;height:63px;">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <div class="container">
+        <h3>All Categories</h3>
+        <p>Here you can see all the categories.<br>
+        You can also visit all latest posts in <a href="https://www.webriders.se/archives/">Latest News</a>.<br>
+        </p>
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <% items.forEach(function(item){ %>
+                    <%- partial('_partial/tag-category-index', {item: item}) %>
+                <% }); %>
+                <div class="archive-before-pagination"></div>
+            </div>
+        </div>
+    </div>
+<% } else { %>
+    <section class="main">
+        <%- partial('_partial/article-full', {item: page}) %>
+    </section>
+<% } %>
+
+
+

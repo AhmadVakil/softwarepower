@@ -1,0 +1,51 @@
+<!-- Page Header -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<!-- Set your background image for this header in the theme's configuration: index_cover -->
+<header class="intro-header" style="background-image: url('<%- theme.index_cover %>')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="site-heading">
+                    <!--  <h1><%- config.title %></h1>  -->
+                    <img src="https://www.webriders.se/images/webriders_title.png" alt="Web Riders" style="width:311px;height:67px;">
+                    <br>
+                    <img src="https://www.webriders.se/images/webriders_logo.png" alt="Web Riders" style="width:200px;height:200px;">
+                    <hr class="small">
+                    <!-- <span class="subheading"><%- config.subtitle %></span> -->
+                    <img src="https://www.webriders.se/images/arevthatweridewith.png" alt="Web Riders" style="width:282px;height:63px;">
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+    <p>
+      Every article you read about hacking in this website is just for educational purposes and we are not responsible if you use these information for malicious purposes. Our background education is in network security and computer science, therefore we write articles that can be useful for penetration testing and vulnerabilities analysis.<br><br> To get the best experience in our website we use cookies and we suggest using Google Chrome or Firefox and avoid using browsers that block external links such as Brave browser in order to share articles on your social media.
+    </p>
+    <div class="row">
+        <div style="display:inline;">
+            <% page.posts.each(function(item){ %>
+            <div id="box" style="padding: 10px; box-shadow: 0px 0px 8px; border-radius:15px; margin:10px; transition: 0.5s;" onmouseover="hoverDiv(this)" onmouseout="unHoverDiv(this)">
+                <%- partial('_partial/article-index', {item: item}) %>
+            </div>
+            <% }); %>
+
+            <%- partial('_partial/pagination') %>
+        </div>
+    </div>
+</div>
+
+<script>
+function hoverDiv(x) {
+  x.style.backgroundColor = "gray";
+  x.style.borderRadius = "30px";
+
+}
+
+function unHoverDiv(x) {
+  x.style.backgroundColor = "white";
+  x.style.borderRadius = "15px";
+}
+</script>

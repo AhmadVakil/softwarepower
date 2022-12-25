@@ -1,0 +1,52 @@
+# Header
+menu:
+  Home:
+    url: /
+    icon: home
+  Latest News: /archives
+  #Tags: /tags
+  All Categories: /categories
+  # Github:
+  #  url: https://www.github.com/
+  #  icon: github
+
+
+# Title on top left of menu. Leave empty to use main blog title
+menu_title: Web Riders
+
+# URL of the Home page image
+index_cover: https://media.giphy.com/media/lo5HLcAPFSgTZNTpAn/giphy.gif
+logo_cover: https://www.webriders.se/images/webriders_logo.png
+
+# Default post title
+default_post_title: Untitled
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  disqus_shortname: https-www-webriders-se-1
+  # Facebook comments
+  facebook:
+    appid: #492385331524576
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics: UA-145353245-1
+
+# Addthis ID
+addthis: ra-5d4c5d12b6b86056
+
+# set your own favicon
+favicon: https://img.icons8.com/cotton/64/000000/domain.png
+
+# Social Accounts
+twitter_url:
+twitter_handle:
+facebook_url:
+github_url:
+gitlab_url:
+linkedin_url:
+mailto: webbplatsutvecklare@gmail.com
+
+share_cover: https://www.webriders.se/images/webriders_sharecover.png
