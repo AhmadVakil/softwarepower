@@ -1,0 +1,379 @@
+<!DOCTYPE html><html lang="en"><!-- Head tag --><head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+
+    
+
+    
+        <meta name="description" content="A portfolio legend!">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="Ahmadreza Vakilalroayayi">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="Useful Kali Linux basic commands">
+    
+
+    <!--Open Graph Description-->
+    
+        <meta property="og:description" content="A portfolio legend!">
+    
+
+    <!--Open Graph Site Name-->
+        <meta property="og:site_name" content="Software Power">
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article">
+    
+
+    <!--Page Cover-->
+    
+    
+        <meta property="og:image" content="http://yoursite.comimages/home-bg.jpg">
+        <meta property="og:image" content="http://yoursite.comimages/aboutus.png">
+    
+
+        <meta name="twitter:card" content="summary_large_image">
+
+    
+
+    
+        <meta name="twitter:image" content="http://yoursite.comimages/home-bg.jpg">
+    
+
+    <!-- Title -->
+    
+    <title>Useful Kali Linux basic commands - Software Power</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="//fonts.googleapis.com/css?family=Lora:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-145353245-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+    <!-- favicon -->
+    
+    <link rel="icon" href="https://img.icons8.com/cotton/64/000000/domain.png">
+    
+
+<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css"></head>
+
+
+<body>
+
+    <!-- Menu -->
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/" style="text-shadow: 0 0 3px #FF0000, 0 0 15px #0000FF;">Software Power</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                
+                    <li>
+                        <a href="/">
+                            
+                                <i class="fa fa-home fa-stack-2x"></i>
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/archives">
+                            
+                                Latest News
+                            
+                        </a>
+                    </li>
+                
+                    <li>
+                        <a href="/categories">
+                            
+                                All Categories
+                            
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <!-- Main Content -->
+    <!-- Page Header -->
+<!-- Set your background image for this header in your post front-matter: cover -->
+
+<header class="intro-header" style="background-image: url('images/home-bg.jpg')">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-heading">
+                    <h1>Useful Kali Linux basic commands</h1>
+                    
+                    <span class="meta">
+                        <!-- Date and Author -->
+                        
+                        
+                            2020-04-02
+                        
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Post Content -->
+<article>
+    <div class="container">
+        <div class="row">
+
+            <!-- Tags and categories -->
+           
+                <div class="col-lg-4 col-lg-offset-2 col-md-5 col-md-offset-1 post-tags">
+                    
+                        
+
+<a href="/categories/Security-Hacking/">Security &amp; Hacking</a>
+
+                    
+                </div>
+                <div class="col-lg-4 col-md-5 post-categories">
+                    
+                </div>
+            
+
+            <!-- Gallery -->
+            
+
+            <!-- Post Main Content -->
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <p><strong>Useful Kali Linux basic commands</strong></p>
+<p>In this article I will share some basic and useful commands that you can use in the terminal.</p>
+<p align="center">
+  <img width="920" height="600" src="/images/kali-linux.jpg">
+</p>
+
+<p><strong><strong>free</strong></strong><br>Provides information about available RAM and total available and available physical space and buffer exchange memory used by Kernal.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# free</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>vi</strong></strong>	<br>Editor which used to edit the file.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# vi [file-to-open-editor]</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>sort</strong></strong>	<br>Arranges the contents of a text file line by line.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# cat a.txt b.txt c.txt | sort</span><br><span class="line">a.txt</span><br><span class="line">b.txt</span><br><span class="line">c.txt</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>more</strong></strong>	<br>One screen at a time is used to display the output in the terminal.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# more a.txt</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>less</strong></strong>	<br>Used to view the file instead of opening the file. It does not open the entire file at once. Used for big files.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# less huge.txt</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>date</strong></strong>	<br>This command is used to display the system date and time.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# date</span><br></pre></td></tr></tbody></table></figure>
+
+<p>To change the date</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# date --set=’4 Jan 2019 11:20′</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>cal</strong></strong>	<br>Shows the formatted calendar from the current month.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# cal</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>whoami</strong></strong>	<br>Prints the active ID of the user. Also, <strong><strong>who</strong></strong> command prints the information about the user that is currently logged in.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# whoami</span><br><span class="line">root</span><br><span class="line">root@kali:~# who</span><br><span class="line">root     :1             2019-01-04 11:20 (:1)</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>pwd</strong></strong>	<br>Abbreviation for “Print Working Directory”, which prints the name of the directory in operation.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# pwd</span><br><span class="line">/root</span><br><span class="line">root@kali:~# cd /root/Desktop/myApp/</span><br><span class="line">root@kali:~/Desktop/myApp# pwd</span><br><span class="line">/root/Desktop/myApp</span><br><span class="line">root@kali:~/Desktop/myApp#</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>ls</strong></strong>	<br>This command is used to show all files.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# ls</span><br><span class="line">a.txt    b.txt    c.txt    worksplace</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>users</strong></strong>	<br>Displays the login names of recently logged in users.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# users</span><br><span class="line">root</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>uptime</strong></strong>	<br>Indicates when the system is on and active users.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# uptime</span><br><span class="line">15:17:10 up 20 min, 1 user, load average: 0.11, 0.19, 0.20</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>uname</strong></strong>	<br>Prints information about the current system.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# uname</span><br></pre></td></tr></tbody></table></figure>
+
+<p>Also, use –help to read more about this command.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# uname --help</span><br></pre></td></tr></tbody></table></figure>
+<p><strong><strong>rm</strong></strong>	<br>rm(remove) is used to delete files and directories.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# rm           # Delete files.</span><br><span class="line">root@kali:~# rm -f        # Delete read only files.</span><br><span class="line">root@kali:~# rm -r        # Delete the folders.</span><br><span class="line">root@kali:~# rm - rf *    # Delete everything in current folder.</span><br><span class="line">root@kali:~# rm - rf .    # Delete current folder with its subfolders.</span><br><span class="line">root@kali:~# rm - rf /    # Delete everything in root.</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>mv</strong></strong>	<br>This command moves or renames files and directories in the file system.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# mv [options] source dest</span><br></pre></td></tr></tbody></table></figure>
+
+<p>Move a.txt b.txt to /home/usr/myFiles/</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# mv a.txt b.txt /home/usr/myFiles/</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>history</strong></strong>	<br>This command is used to print the current user bash history.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# history</span><br></pre></td></tr></tbody></table></figure>
+<p>Or you can save the history in txt file for example:</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# history &gt; myHistory.txt</span><br></pre></td></tr></tbody></table></figure>
+<p>myHistory.txt will be created.</p>
+<p><strong><strong>cat</strong></strong>	<br>cat is a standard Unix utility that reads files sequentially, writing them to standard output. The name is derived from its function to concatenate files.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# echo "I am learning Linux commands" &gt; sample.txt</span><br><span class="line">root@kali:~# cat sample.txt</span><br><span class="line">I am learning Linux commands</span><br><span class="line">root@kali:~#</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>mkdir</strong></strong>	<br>Used to create directories.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# mkdir [your-new-directory-name]</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>cd</strong></strong>	<br>Used to change or switch a currently working .</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# cd [your-directory-name]</span><br></pre></td></tr></tbody></table></figure>
+
+<p><strong><strong>cp</strong></strong><br>Used to copy.</p>
+<figure class="highlight plaintext"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">root@kali:~# cp sample.txt /root/Desktop/sample.txt</span><br><span class="line">root@kali:~# ls /root/Desktop/</span><br><span class="line">sample.txt</span><br><span class="line">root@kali:~#</span><br></pre></td></tr></tbody></table></figure>
+
+                
+                    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                    <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d4c5d12b6b86056"></script>
+
+                    <!-- Go to www.addthis.com/dashboard to customize your tools -->
+                    <div class="addthis_sharing_toolbox"></div>
+                
+            </div>
+
+            <!-- Comments -->
+            
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    
+    <hr>
+    <h3>Comments:</h3>
+    <div id="disqus_thread">
+        <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="//disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </div>
+
+
+
+                </div>
+            
+        </div>
+    </div>
+</article>
+
+    <!-- Footer -->
+    <hr>
+
+<!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+
+                    
+<!-- Disabled
+                    
+-->
+                    
+
+                    
+                        <li>
+                            <a href="mailto:webbplatsutvecklare@gmail.com" target="_blank">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-envelope-o fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    
+
+                    
+                </ul>
+                <p class="copyright text-muted">© 2023 Ahmadreza Vakilalroayayi<br></p>
+                <p class="copyright text-muted"></p>
+                <p class="copyright text-muted"><br><br><br></p>
+            </div>
+        </div>
+    </div>
+    <p style="text-align:center;">
+        Total visitors
+        <img src="https://hitwebcounter.com/counter/counter.php?page=7688154&amp;style=0038&amp;nbdigits=6&amp;type=ip&amp;initCount=0" title="Total Visitors" alt="Web Hits" border="0">
+    </p><p>
+</p></footer>
+
+
+    <!-- After footer scripts -->
+    
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Bootstrap -->
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Disqus Comments -->
+
+<script type="text/javascript">
+    var disqus_shortname = 'https-www-webriders-se-1';
+
+    (function(){
+        var dsq = document.createElement('script');
+        dsq.type = 'text/javascript';
+        dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    }());
+</script>
+
+
+
+
+
+</body><script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script><script>window.addEventListener("load", function(){window.cookieconsent.initialise({"palette":{"popup":{"background":"#eb6c44","text":"#ffffff"},"button":{"background":"#f5d948"}},"content":{"message":"This website uses cookies to ensure you get the best experience on my website.","dismiss":"Accept"}})});</script></html>

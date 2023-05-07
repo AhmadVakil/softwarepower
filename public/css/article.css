@@ -1,0 +1,252 @@
+article .container .row img {
+  max-width: 100% !important;
+  height: auto;
+  display: inline-block;
+}
+article .container .row .video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+article .container .row .video-container iframe,
+article .container .row .video-container object,
+article .container .row .video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 0;
+}
+article .container .row blockquote {
+  font-style: italic;
+  font-family: font-serif;
+  font-size: 1.2em;
+  padding: 0 30px 15px;
+  text-align: center;
+}
+article .container .row blockquote footer {
+  border-top: none;
+  font-size: 0.8em;
+  line-height: 1;
+  margin: 20px 0 0;
+  padding-top: 0;
+}
+article .container .row blockquote footer cite:before {
+  content: '—';
+  color: #ccc;
+  padding: 0 0.5em;
+}
+article .container .row .pullquote {
+  float: right;
+  border: none;
+  padding: 0;
+  margin: 1em 0 0.5em 1.5em;
+  text-align: left;
+  width: 45%;
+  font-size: 1.5em;
+}
+article .container .row .pullquote.left {
+  float: left;
+}
+figure.highlight {
+  background: #eee;
+  border: 1px solid color-border;
+  margin-top: 15px;
+  padding: 7px 15px;
+  border-radius: 2px;
+  text-shadow: 0 0 1px #fff;
+  line-height: 1.6;
+  overflow: auto;
+  position: relative;
+  font-size: 0.9em;
+}
+figure.highlight figcaption {
+  color: color-meta;
+  font-family: font-mono;
+  margin-bottom: 5px;
+  text-shadow: 0 0 1px #fff;
+}
+figure.highlight figcaption a {
+  position: absolute;
+  right: 15px;
+}
+figure.highlight pre {
+  border: none;
+  padding: 0;
+  margin: 0;
+  background: none;
+}
+figure.highlight table {
+  margin-top: 0;
+  border-spacing: 0;
+}
+figure.highlight table .gutter {
+  color: color-meta;
+  padding-right: 15px;
+  border-right: 1px solid color-border;
+  text-align: right;
+}
+figure.highlight table .code {
+  padding-left: 15px;
+  border-left: 1px solid #fff;
+  color: #666;
+}
+figure.highlight table .line {
+  height: 20px;
+}
+figure.highlight table .line.marked {
+  background: #d6d6d6;
+}
+pre .comment,
+pre .template_comment,
+pre .diff .header,
+pre .doctype,
+pre .pi,
+pre .lisp .string,
+pre .javadoc {
+  color: #93a1a1;
+  font-style: italic;
+}
+pre .keyword,
+pre .winutils,
+pre .method,
+pre .addition,
+pre .css .tag,
+pre .request,
+pre .status,
+pre .nginx .title {
+  color: #859900;
+}
+pre .number,
+pre .command,
+pre .string,
+pre .tag .value,
+pre .phpdoc,
+pre .tex .formula,
+pre .regexp,
+pre .hexcolor {
+  color: #2aa198;
+}
+pre .title,
+pre .localvars,
+pre .chunk,
+pre .decorator,
+pre .built_in,
+pre .identifier,
+pre .vhdl,
+pre .literal,
+pre .id {
+  color: #268bd2;
+}
+pre .attribute,
+pre .variable,
+pre .lisp .body,
+pre .smalltalk .number,
+pre .constant,
+pre .class .title,
+pre .parent,
+pre .haskell .type {
+  color: #b58900;
+}
+pre .preprocessor,
+pre .preprocessor .keyword,
+pre .shebang,
+pre .symbol,
+pre .symbol .string,
+pre .diff .change,
+pre .special,
+pre .attr_selector,
+pre .important,
+pre .subst,
+pre .cdata,
+pre .clojure .title {
+  color: #cb4b16;
+}
+pre .deletion {
+  color: #dc322f;
+}
+.button {
+  background-color: #4caf50;
+  border: none;
+  color: #fff;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.button1 {
+  background-color: #fff;
+  color: #000;
+  border: 2px solid #4caf50;
+}
+.button1:hover {
+  background-color: #4caf50;
+  color: #fff;
+}
+.codecolorer-container,
+.codecolorer {
+  color: #000;
+  background-color: #f1f1f1;
+}
+.codecolorer .co0,
+.codecolorer .co1,
+.codecolorer .co2,
+.codecolorer .co3,
+.codecolorer .co4,
+.codecolorer .coMULTI {
+  color: #406040;
+  font-style: italic;
+}
+.codecolorer .nu0,
+.codecolorer .re3 {
+  color: #0080a0;
+}
+.codecolorer .st0,
+.codecolorer .st_h,
+.codecolorer .es0,
+.codecolorer .es1 {
+  color: #c03030;
+}
+.codecolorer .me1,
+.codecolorer .me2 {
+  color: #0080ff;
+}
+.codecolorer .kw1,
+.codecolorer .kw2,
+.codecolorer .sy1 {
+  color: #2060a0;
+}
+.codecolorer .kw3,
+.codecolorer .kw4,
+.codecolorer .kw5,
+.codecolorer .re2 {
+  color: #008080;
+}
+.codecolorer .re0,
+.codecolorer .re1 {
+  color: #a08000;
+}
+.codecolorer .br0,
+.codecolorer .sy0 {
+  color: #000;
+}
+.codecolorer.xml .re1,
+.codecolorer.xsl .re1,
+.codecolorer.xml .re2,
+.codecolorer.xsl .re2 {
+  color: #008080;
+}
+.codecolorer.xml .re0 {
+  color: #2060a0;
+}
+.codecolorer .ln-xtra {
+  background-color: #ff6;
+  display: block;
+}
